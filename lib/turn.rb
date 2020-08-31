@@ -15,8 +15,8 @@ def display_board(board)
   end
 
 #I'm checking the number to see if the position is already taken and is an actual number
-def valid_move(board, index)
-def position_taken(array, index)
+def valid_move?(board, index)
+def position_taken?(array, index)
   if array[index] == " " || array[index] == "" || array[index] == nil
     return false
   else
@@ -24,7 +24,7 @@ def position_taken(array, index)
   end
 end
 
-def on_the_board?(number)
+def on_board?(number)
   if number.between?(0,8) == true
 return true
 else
