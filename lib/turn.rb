@@ -14,7 +14,7 @@ def input_to_index(user_input)
   return index
 end
 
-
+#I'm checking the number to see if the position is already taken and is an actual number
 def valid_move?(board, index)
   def position_taken?(array, ind)
     if array[ind] == " " || array[ind] == "" || array[ind] == nil
