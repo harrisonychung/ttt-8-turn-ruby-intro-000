@@ -1,3 +1,4 @@
+#here I am displaying the tictactoe board with board spaces passing as an array
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
