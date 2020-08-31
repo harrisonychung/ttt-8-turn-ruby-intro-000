@@ -32,4 +32,9 @@ else
 end
 end
 
-if position
+if (position_taken?(board, index)) == false && (on_the_board?(index)== true)
+  return true
+else
+  return false
+end
+end
