@@ -6,7 +6,11 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
 
-  def input_to_index
+  def input_to_index(input)
+    index = input.to_i
+    index -= 1
+    return index
+  end
 
 def move?(board, index)
 def position_taken(array, index)
