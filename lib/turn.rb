@@ -7,6 +7,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
 
+#here I am converting the player's place on the board to the index integer
   def input_to_index(input)
     index = input.to_i
     index -= 1
