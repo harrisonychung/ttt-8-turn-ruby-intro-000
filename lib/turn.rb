@@ -38,3 +38,5 @@ else
   return false
 end
 end
+
+#I'm taking a player's #, the board, and placing either a "X" or "O" in that square
