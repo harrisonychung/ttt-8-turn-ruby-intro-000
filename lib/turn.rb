@@ -40,7 +40,7 @@ end
 end
 
 #I'm taking a player's #, the board, and placing either a "X" or "O" in that square
-def move(board, index, token = "X")
+def move(board, index, charcater = "X")
   board[index]= token
   return board
 end
