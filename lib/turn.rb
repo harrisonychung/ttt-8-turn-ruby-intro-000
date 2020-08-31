@@ -46,7 +46,7 @@ def move(board, index, character = "X")
 end
 
 #turn method
-def turn(board)
+def turn (board)
   puts "Please enter 1-9:"
 if valid_move(board, index) == true
     move(board, index)
