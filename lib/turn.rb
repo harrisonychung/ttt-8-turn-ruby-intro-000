@@ -5,5 +5,5 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
-valid_move? (board, index)
-move(board, index, token)
+
+def move(board, index, token)
