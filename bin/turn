@@ -5,6 +5,6 @@
 #if index is valid
   #make the move for index
   #show the board
-else
+#else
   #ask for input again until you get a valid input
-end
+#end
