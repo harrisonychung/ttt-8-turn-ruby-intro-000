@@ -15,7 +15,7 @@ def display_board(board)
   end
 
 #I'm checking the number to see if the position is already taken and is an actual number
-def move?(board, index)
+def valid_move?(board, index)
 def position_taken(array, index)
   if array[index] == " " || array[index] == "" || array[index] == nil
     return false
