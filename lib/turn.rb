@@ -48,7 +48,6 @@ end
 #turn method
 def turn(board)
   puts "Please enter 1-9:"
-end
 if valid_move?(board, index) == true
     move(board, index)
     display_board(board)
