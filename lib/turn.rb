@@ -15,4 +15,5 @@ def position_taken(array, index)
   end
 end
 
-def on_the_board()
+def on_the_board?(number)
+  if number.between?(0,8) == true
